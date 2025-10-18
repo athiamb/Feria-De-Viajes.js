@@ -1,0 +1,121 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000d0;
+}
+
+header {
+  background-color: #1500ff00;
+  color: rgb(12, 0, 101);
+  text-align: center;
+  padding: 2px;
+}
+
+header img {
+  width: 200px;
+  margin-top: 10px;
+}
+nav {
+  background-color: #002139;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  margin: 0 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  margin: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-flexbox;
+  padding: 10px 20px;
+  
+}
+nav a:hover {
+  background-color: #000000;
+}
+main {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h2 {
+  color: #013960;
+}
+section {
+  margin-bottom: 40px;
+}
+article {
+  margin-top: 20px;
+  background-color: #eef6fc;
+  padding: 15px;
+}
+article img {
+  width: 50%;
+  max-width: 1000px;
+  display: block;
+  margin: 10px auto;
+  
+}
+form {
+  max-width: 640px;
+  margin: auto;
+  background: #eef6fc;
+  padding: 20px;
+  border-radius: 8px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #24008f;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #000429;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0d0060;
+}
+
+/* === PIE DE PÁGINA === */
+footer {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feria de Viajes - Expositores</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Feria de Viajes 2025</h1>
+    <!--Imagen externa, usada de logo desde la carpeta de imagenes-->
+    <img src="imagenes/LOGO.png" alt="Logo Feria de Viajes">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="destinos.html">Destinos</a></li>
+      <li><a href="expositores.html">Expositores</a></li>
+      <li><a href="actividades.html">Actividades</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+        <h2>Expositores Destacados</h2>
+       <p>Conoce las agencias , aerolineas mas destacadas que participan en la feria</p>
+    
+      <article onmouseover="cambiarColor(this,'lightblue')"
+              onmouseout="cambiarColor(this,'')">
+        <h3>Viajes Africa</h3>
+        <p>Agencia africana con más de 15 años de experiencia. Ofrece viajes a más de 25 destinos en el continente africano.
+          Enlace a la pagina web de la Agencia viajes Africa. <a href="https://viajesafrica.es/" target= "_blank">Viajes Africa</a>
+        </p>
+        <img src="imagenes/viajesafrica.jpg" alt="Logo de Viajes Africa">
+      </article>
+    
+    <article onmouseover="cambiarColor(this,'lightblue')"
+            onmouseout="cambiarColor(this,'')">
+        <h3>Hotel Mundo</h3>
+        <p>Tienen hoteles presentes en más de 30 países. Nuevos alojamientos con descuentos para la feria de 2025.
+          Enlace a la pagina web de Hotel. 
+          <a href="https://www.hotel-mundial.pt/es/" target="_blank">Hotel Mundo</a>
+        </p>
+        <img src="imagenes/hotelmundo.jpg" alt="Hotel de la cadena Hotel Mundo">
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Feria de Viajes</p>
+  </footer>
+<script src="funciones/funciones.js"></script>
+</body>
+</html>

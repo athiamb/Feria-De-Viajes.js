@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feria de Viajes - Actividades</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Feria de Viajes 2025</h1>
+    <img src="imagenes/LOGO.png" alt="Logo Feria de Viajes">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="destinos.html">Destinos</a></li>
+      <li><a href="expositores.html">Expositores</a></li>
+      <li><a href="actividades.html">Actividades</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!--Section sirve para agrupar contenido relacionado dentro de una página web.-->
+    <section>
+      <h2>Actividades Destacadas</h2>
+      <p>En esta Feria de Viajes 2025 podrás disfrutar de charlas, y experiencias con profesionales del sector.</p>
+      <article onmouseover="mostrarMensaje('Para planificar tu viaje haz clic en el enlace')" 
+         onmouseout="ocultarMensaje()">
+        <h3>Planifica tu viaje</h3>
+        <p>aprende a planificar tu viaje, elige un destino y gestiona tu presupuesto</p>
+        <img src="imagenes/tallerviaje.jpg" alt="taller de planificacion de viajes">
+        <a href="https://trotandomundos.com/planifica-tus-viajes/" target="_blank">planificatuviaje</a>
+      </article>
+      <p id="mensaje-actividades" style="color: blue; font-weight: bold;"></p>
+      <article>
+        <h3>Comidas del mundo</h3>
+        <p>Disfruta de platos tipicos de diferentes países representados en la feria.</p>
+        <img src="imagenes/saboresmundo.jpg" alt="Degustación gastronómica internacional">
+        Aqui tienes por ejemplo un enlace para ver platos tipicos de Senegal <a href="https://www.senegalatuspies.es/5-especialidades-gastronomicas-de-senegal/">platosdesenegal</a>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Feria de Viajes</p>
+  </footer>
+  <script src="funciones/funciones.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feria de Viajes - Contacto</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Feria de Viajes 2025</h1>
+    <img src="imagenes/LOGO.png" alt="Logo Feria de Viajes">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="destinos.html">Destinos</a></li>
+      <li><a href="expositores.html">Expositores</a></li>
+      <li><a href="actividades.html">Actividades</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Formulario de Contacto</h2>
+      <p>Completa el siguiente formulario y escribe tu mensaje.</p>
+      <!-- 
+      Formulario de contacto donde
+solamente salta la ventana correspondiente de correo del sistema
+operativo, no funciona realmente el envío.
+    -->
+
+      <form action="mailto:feriadeviajes2025@email.com" method="get" enctype="text/plain">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <input type="submit" value="Enviar correo" onclick="confirmarEnvio()">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Feria de Viajes</p>
+  </footer>
+  <script src="funciones/funciones.js"></script>
+
+</body>
+</html>
