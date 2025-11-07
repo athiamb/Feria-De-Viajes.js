@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+   <title>Feria de viajes 2025 - Novedades</title>
+   <link>https://athiamb.github.io/Feria-De-Viajes.js/</link>
+   <description>Acutualizaciones del sitio web</description>
+<item>
+   <title>Destinos Actualizados</title>
+   <description>¡Echa un vistazo a los nuevos destinos y los nuevos descuentos! </description>
+   <link>https://athiamb.github.io/Feria-De-Viajes.js/destinos.html</link>
+   <pubDate>Viernes, 7 de noviembre de 2025</pubDate>
+</item>
+   <title>Nuestras Actividades</title>
+   <description>¡Echa un vistazo a los nuevos destinos y los nuevos descuentos! </description>
+   <link>https://athiamb.github.io/Feria-De-Viajes.js/actividades.html</link>
+   <pubDate>Viernes, 7 de noviembre de 2025</pubDate>
+<item>
+</item>
+   
+</channel>
+</rss>
